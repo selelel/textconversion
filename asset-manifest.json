@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/textconversion/static/css/main.04437fe1.css",
+    "main.js": "/textconversion/static/js/main.f62491a9.js",
+    "index.html": "/textconversion/index.html",
+    "main.04437fe1.css.map": "/textconversion/static/css/main.04437fe1.css.map",
+    "main.f62491a9.js.map": "/textconversion/static/js/main.f62491a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04437fe1.css",
+    "static/js/main.f62491a9.js"
+  ]
+}
