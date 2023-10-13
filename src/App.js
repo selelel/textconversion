@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Input from './Components/Input'
 import Output from './Components/Ouput';
 import SetOfModes from './Components/Modes';
+import Logo from './Components/image/v.svg'
+import Git from './Components/image/icons8-github.svg'
 
 const Header = () => {
   const [Convert, setConvert] = useState("");
@@ -11,14 +13,18 @@ const Header = () => {
   }
 
   return(
-    <div className=" ">
-      <div className="fixed bottom-0 w-full text-center bg-green-400  border-b border-green-700 font-mono text-md text-white font-semibold">
+    <>
+      {/* <div className="fixed bottom-0 w-full text-center bg-green-400  border-b border-green-700 font-mono text-md text-white font-semibold">
         Web on Development<br/>
         <span className="font-thin text-sm">(Capitalize, UpperCaps, & LowerCaps options not Added)</span>
-      </div>
-      <div className="text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-        <h1 className="font-semibold text-xl text-white">VerText</h1>
-        <h1 className="font-thin text-sm text-white">Capitalize, UpperCaps, & ETC</h1>
+      </div> */}
+
+      <div className="bg-cos-blue h-fit flex justify-between ">
+        <div className="flex my-auto ">
+        <img src={Logo} className='w-8 py-3 h-fit ml-8 my-auto fill-slate-50 drop-shadow-md '></img>
+        <h1 className="w-fit font-bold text-2xl text-white drop-shadow-sm  h-fit my-auto">erText</h1>
+        </div>
+        <a className = 'h-fit my-auto'href=''><img className='mr-8 w-11 duration-500 ease-out hover:drop-shadow-md cursor-pointer' src={Git}></img></a>
       </div>
       <div className='flex justify-center'>
       <SetOfModes />
@@ -29,7 +35,7 @@ const Header = () => {
         <Output contentConvert={Convert}/>
       </div>
 
-    </div>
+    </>
   );
   }
 

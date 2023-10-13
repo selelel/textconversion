@@ -3,8 +3,8 @@ import { Reuse } from "./context/context";
  const SetOfModes = () => {
   const {setMode} = Reuse();
   return (
-  <div className='text-2xl mt-2'>
-      <select className="w-64 h-10 text-center rounded cursor-pointer bg-slate-300 duration-300 ease-out  hover:shadow-lg " id="modes" onChange={ e => {
+  <div className='text-2xl mt-5'>
+      <select className="w-64 h-10 text-center rounded cursor-pointer bg-slate-300/50 hover:bg-slate-300/70 duration-300 ease-out  hover:shadow-lg" id="modes" onChange={ e => {
         setMode(e.target.value)
       }}>
         <option value="Morse">✨<span>NEW </span>Morse</option>
