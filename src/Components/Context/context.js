@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
 const SwitchMode = createContext();
 const Provide = ({children}) =>{
@@ -14,8 +14,11 @@ const Provide = ({children}) =>{
     value} >
     {children}
   </SwitchMode.Provider>)
-
 }
 
-export { Provide };
+const Reuse = () => {
+  return useContext(SwitchMode);
+}
+
+export { Provide, Reuse };
 export default SwitchMode;
