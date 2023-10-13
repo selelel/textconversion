@@ -11,6 +11,7 @@ const toJejemon = (inputText) => {
   }).join('');
   return toJejemon;
 }
+
 const ToJejemonMap = {
   'a': '4',
   'b': 'B',

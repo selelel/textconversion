@@ -3,7 +3,7 @@ import capitalize from 'capitalize';
 import { toMorse, toJejemon } from './convert/convertmode_functions';
 import toUpper from 'lodash.toupper';
 import copy from 'copy-text-to-clipboard';
-import Reuse from './context/reuseable';
+import { Reuse } from './context/context';
 
 const Output = ({contentConvert}) => {
   const {mode} = Reuse();

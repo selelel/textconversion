@@ -1,4 +1,4 @@
-import Reuse from "./context/reuseable";
+import { Reuse } from "./context/context";
 
  const SetOfModes = () => {
   const {setMode} = Reuse();
