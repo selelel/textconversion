@@ -27,7 +27,7 @@ const Output = ({contentConvert}) => {
 
   return (
     <div className='lg:w-[30rem] sm:w-[30rem] flex flex-wrap justify-center m-1 mx-auto '>
-      <textarea readOnly className=" text-2xl rounded-2xl w-full h-[20rem] border-4 border-cos-dark_purple p-3 resize-none m-2 mb-4 overflow-auto bg-white/5 backdrop-blur-sm  text-black duration-500 ease-out hover:border-cos-onHover hover:scale-105" value={mode_[mode]}>
+      <textarea readOnly className=" text-2xl rounded-2xl w-full h-[20rem] border-4 border-cos-dark_purple/50 p-3 resize-none m-2 mb-4 overflow-auto bg-white/5 backdrop-blur-sm  text-black duration-500 ease-out hover:border-cos-onHover hover:scale-105" value={mode_[mode]}>
       </textarea>
     
       <button className=" w-24 font-semibold p-2 h-fit text-lg rounded text-white bg-cos-dark_purple duration-100 ease-out hover:bg-cos-onHover"

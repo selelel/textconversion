@@ -7,10 +7,9 @@ module.exports = {
     extend: {
       colors: {
         'cos': {
-          'blue': '#BEADFA',
           'white_text' :'#E6EAF3',
-          'onHover' : '#9E50FF',
-          'dark_purple' : '#9172FF',
+          'onHover' : '#007AAA',
+          'dark_purple' : '#0087BD',
           'bg' : '#4A4D60'
         }
       }
