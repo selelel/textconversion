@@ -3,12 +3,10 @@ import { createContext, useState } from "react";
 const SwitchMode = createContext();
 const Provide = ({children}) =>{
   const [mode, setMode] = useState('Morse');
-
   const value = {
     mode,
     setMode
   }
-
   console.log(mode)
 
   return (
@@ -19,5 +17,5 @@ const Provide = ({children}) =>{
 
 }
 
-export {Provide};
+export { Provide };
 export default SwitchMode;

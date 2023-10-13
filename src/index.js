@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Header from './Components/App';
-import {Provide}  from './Components/Context/context';
+import Header from './App';
+import { Provide } from './Components/context/context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provide>
-    <Header />  
-  </Provide>
+  <StrictMode>
+    <Provide>
+      <Header />  
+    </Provide>
+  </StrictMode>
 );

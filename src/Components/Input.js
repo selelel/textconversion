@@ -5,8 +5,8 @@ const Input = ({addConvert}) => {
 
   const onSubmit = e =>{
     e.preventDefault();
-    setvalue("");
     addConvert(value)
+    setvalue("");
   }
   return (
       <div className="lg:w-[30rem] sm:w-[30rem] m-1 mx-auto">
@@ -16,7 +16,7 @@ const Input = ({addConvert}) => {
         onChange={(e)=> setvalue(e.target.value) }
         spellCheck= {false}></textarea>
 
-        <button className="font-semibold w-fit p-2 mt-7 text-lg rounded text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" type="submit">Convert</button>
+        <button className="font-semibold  w-24 p-2 h-fit text-lg rounded text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" type="submit">Convert</button>
         </form>
       </div>
   );

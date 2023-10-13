@@ -1,4 +1,4 @@
-import Reuse from "./Components/Context/reuseable";
+import Reuse from "./context/reuseable";
 
  const SetOfModes = () => {
   const {setMode} = Reuse();
@@ -21,7 +21,6 @@ import Reuse from "./Components/Context/reuseable";
         <option value="Sentence">toSentenceCase</option>
         <option value="Snake">toSnakeCase</option>
         <option value="Text">toTextCase</option>
-        
       </select>
   </div>)
 }
