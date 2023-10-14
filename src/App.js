@@ -20,7 +20,7 @@ const Header = () => {
       </div> */}
 
       <div className="bg-gradient-to-r from-cyan-500 to-blue-500 h-fit flex justify-between ">
-        <div className="flex my-auto cursor-pointer">
+        <div className="flex my-auto cursor-pointer duration-500 ease-out hover:drop-shadow-lg ">
         <img src={Logo} className='w-8 py-3 h-fit ml-8 my-auto fill-slate-50 drop-shadow-md'></img>
         <h1 className="w-fit font-bold text-2xl text-white drop-shadow-sm  h-fit my-auto">erText</h1>
         </div>
