@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vertext/static/css/main.9291df26.css",
-    "main.js": "/vertext/static/js/main.a551f10d.js",
-    "static/media/icons8-github.svg": "/vertext/static/media/icons8-github.9a4635814246bae2c61c43d3ec425b8f.svg",
+    "main.css": "/vertext/static/css/main.fc8c196d.css",
+    "main.js": "/vertext/static/js/main.3ecb35db.js",
+    "static/media/icons8-github.svg": "/vertext/static/media/icons8-github.87411c8528dda3c5bc8bb74e0f0dcf0d.svg",
     "index.html": "/vertext/index.html",
-    "static/media/v.svg": "/vertext/static/media/v.cd97b77fc2f9c857bb5278fd9eb84e0a.svg",
-    "main.9291df26.css.map": "/vertext/static/css/main.9291df26.css.map",
-    "main.a551f10d.js.map": "/vertext/static/js/main.a551f10d.js.map"
+    "static/media/v.svg": "/vertext/static/media/v.43fddcd9cdac9feb24f72a30a482dfde.svg",
+    "main.fc8c196d.css.map": "/vertext/static/css/main.fc8c196d.css.map",
+    "main.3ecb35db.js.map": "/vertext/static/js/main.3ecb35db.js.map"
   },
   "entrypoints": [
-    "static/css/main.9291df26.css",
-    "static/js/main.a551f10d.js"
+    "static/css/main.fc8c196d.css",
+    "static/js/main.3ecb35db.js"
   ]
 }
