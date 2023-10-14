@@ -11,8 +11,8 @@ module.exports = {
           'onHover' : '#007AAA',
           'dark_purple' : '#0087BD',
           'bg' : '#4A4D60'
-        }
-      }
+        },
+      },
     },
   },
   plugins: [],

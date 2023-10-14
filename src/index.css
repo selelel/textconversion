@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 body {
-
   *:focus {
     outline: none;
 }
+
+
 }
